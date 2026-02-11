@@ -1,0 +1,20 @@
+{
+  "name": "SurgiFlow AI",
+  "short_name": "SurgiFlow",
+  "description": "A voice-first, self-learning inventory and billing solution for surgical manufacturers, replacing barcodes with Gemini-powered AI parsing.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3063/3063822.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

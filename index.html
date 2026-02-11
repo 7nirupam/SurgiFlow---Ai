@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SurgiFlow AI - Enterprise SME Inventory</title>
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#10B981">
+  <meta name="description" content="AI-Powered Surgical Instrument Manufacturing & Inventory Platform">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #E2E8F0;
+      border-radius: 10px;
+    }
+    /* Smooth transitions for view changes */
+    .view-enter { opacity: 0; transform: translateY(10px); }
+    .view-enter-active { opacity: 1; transform: translateY(0); transition: all 300ms ease-out; }
+  </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-[#F9FAFB] text-slate-900 overflow-x-hidden">
+  <div id="root"></div>
+  <!-- Vite entry point -->
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
